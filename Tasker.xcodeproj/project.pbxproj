@@ -7,18 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE733BC827330D4700AB0086 /* TaskListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE733BC727330D4700AB0086 /* TaskListCellView.swift */; };
 		CE751E3927280BAA009C8875 /* TaskerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751E3827280BAA009C8875 /* TaskerApp.swift */; };
-		CE751E3B27280BAA009C8875 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751E3A27280BAA009C8875 /* ContentView.swift */; };
+		CE751E3B27280BAA009C8875 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751E3A27280BAA009C8875 /* ProjectListView.swift */; };
 		CE751E3D27280BB1009C8875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE751E3C27280BB1009C8875 /* Assets.xcassets */; };
 		CE751E4027280BB1009C8875 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE751E3F27280BB1009C8875 /* Preview Assets.xcassets */; };
+		CE751E4A27280C24009C8875 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751E4927280C24009C8875 /* Project.swift */; };
+		CE751E4C27280CB6009C8875 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751E4B27280CB6009C8875 /* Person.swift */; };
+		CE751E4E27280D2C009C8875 /* ProjectTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751E4D27280D2C009C8875 /* ProjectTask.swift */; };
+		CE751E5027280E77009C8875 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751E4F27280E77009C8875 /* SampleData.swift */; };
+		CE751E5227281F02009C8875 /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751E5127281F01009C8875 /* ProgressCircle.swift */; };
+		CE751E54272822D4009C8875 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751E53272822D4009C8875 /* TaskListView.swift */; };
+		CE85918C272833D200878AAA /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85918B272833D200878AAA /* TaskDetailView.swift */; };
+		CE85919027283BEE00878AAA /* ProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85918F27283BEE00878AAA /* ProjectStore.swift */; };
+		CE85919227283FCF00878AAA /* NewProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85919127283FCF00878AAA /* NewProjectView.swift */; };
+		CE8591972728AD4900878AAA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE8591962728AD4900878AAA /* FirebaseAuth */; };
+		CE8591992728AD4900878AAA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE8591982728AD4900878AAA /* FirebaseFirestore */; };
+		CE85919B2728AD4900878AAA /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = CE85919A2728AD4900878AAA /* FirebaseFirestoreSwift-Beta */; };
+		CE85919D2728AE7F00878AAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE85919C2728AE7E00878AAA /* GoogleService-Info.plist */; };
+		CE85919F2728B24700878AAA /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85919E2728B24700878AAA /* ProjectViewModel.swift */; };
+		CE8591A52729856600878AAA /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8591A42729856600878AAA /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE733BC727330D4700AB0086 /* TaskListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCellView.swift; sourceTree = "<group>"; };
 		CE751E3527280BAA009C8875 /* Tasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE751E3827280BAA009C8875 /* TaskerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskerApp.swift; sourceTree = "<group>"; };
-		CE751E3A27280BAA009C8875 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE751E3A27280BAA009C8875 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
 		CE751E3C27280BB1009C8875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE751E3F27280BB1009C8875 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE751E4927280C24009C8875 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		CE751E4B27280CB6009C8875 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CE751E4D27280D2C009C8875 /* ProjectTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTask.swift; sourceTree = "<group>"; };
+		CE751E4F27280E77009C8875 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		CE751E5127281F01009C8875 /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
+		CE751E53272822D4009C8875 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		CE85918B272833D200878AAA /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		CE85918F27283BEE00878AAA /* ProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectStore.swift; sourceTree = "<group>"; };
+		CE85919127283FCF00878AAA /* NewProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectView.swift; sourceTree = "<group>"; };
+		CE85919C2728AE7E00878AAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE85919E2728B24700878AAA /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		CE8591A42729856600878AAA /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE85919B2728AD4900878AAA /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				CE8591972728AD4900878AAA /* FirebaseAuth in Frameworks */,
+				CE8591992728AD4900878AAA /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				CE751E3827280BAA009C8875 /* TaskerApp.swift */,
-				CE751E3A27280BAA009C8875 /* ContentView.swift */,
+				CE751E4827280C0B009C8875 /* View Models */,
+				CE751E4727280BFA009C8875 /* Models */,
+				CE751E4627280BF1009C8875 /* Views */,
 				CE751E3C27280BB1009C8875 /* Assets.xcassets */,
+				CE85919C2728AE7E00878AAA /* GoogleService-Info.plist */,
 				CE751E3E27280BB1009C8875 /* Preview Content */,
 			);
 			path = Tasker;
@@ -65,6 +100,64 @@
 				CE751E3F27280BB1009C8875 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE751E4627280BF1009C8875 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE8591A62729AA2500878AAA /* Project */,
+				CE8591A72729AA3700878AAA /* Tasks */,
+				CE8591A82729AA4200878AAA /* Helper */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE751E4727280BFA009C8875 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE751E4927280C24009C8875 /* Project.swift */,
+				CE751E4B27280CB6009C8875 /* Person.swift */,
+				CE751E4D27280D2C009C8875 /* ProjectTask.swift */,
+				CE751E4F27280E77009C8875 /* SampleData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE751E4827280C0B009C8875 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE85918F27283BEE00878AAA /* ProjectStore.swift */,
+				CE85919E2728B24700878AAA /* ProjectViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		CE8591A62729AA2500878AAA /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				CE751E3A27280BAA009C8875 /* ProjectListView.swift */,
+				CE85919127283FCF00878AAA /* NewProjectView.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		CE8591A72729AA3700878AAA /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				CE751E53272822D4009C8875 /* TaskListView.swift */,
+				CE733BC727330D4700AB0086 /* TaskListCellView.swift */,
+				CE8591A42729856600878AAA /* NewTaskView.swift */,
+				CE85918B272833D200878AAA /* TaskDetailView.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		CE8591A82729AA4200878AAA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CE751E5127281F01009C8875 /* ProgressCircle.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +176,11 @@
 			dependencies = (
 			);
 			name = Tasker;
+			packageProductDependencies = (
+				CE8591962728AD4900878AAA /* FirebaseAuth */,
+				CE8591982728AD4900878AAA /* FirebaseFirestore */,
+				CE85919A2728AD4900878AAA /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = Tasker;
 			productReference = CE751E3527280BAA009C8875 /* Tasker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +209,9 @@
 				Base,
 			);
 			mainGroup = CE751E2C27280BAA009C8875;
+			packageReferences = (
+				CE8591952728AD4900878AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CE751E3627280BAA009C8875 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE751E4027280BB1009C8875 /* Preview Assets.xcassets in Resources */,
+				CE85919D2728AE7F00878AAA /* GoogleService-Info.plist in Resources */,
 				CE751E3D27280BB1009C8875 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +239,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE751E3B27280BAA009C8875 /* ContentView.swift in Sources */,
+				CE751E3B27280BAA009C8875 /* ProjectListView.swift in Sources */,
+				CE733BC827330D4700AB0086 /* TaskListCellView.swift in Sources */,
+				CE85919027283BEE00878AAA /* ProjectStore.swift in Sources */,
+				CE751E5027280E77009C8875 /* SampleData.swift in Sources */,
 				CE751E3927280BAA009C8875 /* TaskerApp.swift in Sources */,
+				CE85919F2728B24700878AAA /* ProjectViewModel.swift in Sources */,
+				CE85919227283FCF00878AAA /* NewProjectView.swift in Sources */,
+				CE751E4E27280D2C009C8875 /* ProjectTask.swift in Sources */,
+				CE8591A52729856600878AAA /* NewTaskView.swift in Sources */,
+				CE751E5227281F02009C8875 /* ProgressCircle.swift in Sources */,
+				CE751E4C27280CB6009C8875 /* Person.swift in Sources */,
+				CE751E4A27280C24009C8875 /* Project.swift in Sources */,
+				CE751E54272822D4009C8875 /* TaskListView.swift in Sources */,
+				CE85918C272833D200878AAA /* TaskDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +421,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,6 +457,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE8591952728AD4900878AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE8591962728AD4900878AAA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8591952728AD4900878AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CE8591982728AD4900878AAA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8591952728AD4900878AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CE85919A2728AD4900878AAA /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8591952728AD4900878AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE751E2D27280BAA009C8875 /* Project object */;
 }
